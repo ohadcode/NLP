@@ -9,7 +9,7 @@ Lecturer: Maor Ivgi
 
 Participating students: Yousfan Ohad, Gal Eshed
 
-**Project Abstruct:**
+**Project abstruct:**
 
 Language models today can do different complex tasks, one of which is text-summarization. In order to evaluate the quality of the generated summary, different metrics are used that try to quantify syntactic and semantic properties of the summary and relate it to a reference summary and/or to the original text. A popular metric to do so is ROUGE, that compares overlap of n-grams in the model generated summary to a reference summary. As human summaries are complex and expensive, the goal is to create models that can generate summaries that are as good as human summaries. An integrated part of that is the need to automate the ability to qualitatively evaluate the summary, and to do so as fast as possible. Despite it’s popularity, ROUGE has several flaws, such as giving a high score to summaries that are not factual or not coherent. We aim to improve ROUGE by mitigating some of it’s flaws while still keeping it’s qualities. We examine a regularization to ROUGE that refers to the original text in a semantic and extractive manner to adjust the final ROUGE score. We show that we get better results compared to the classic ROUGE metrics (R1, R2, RL), with a slight detriment to running time.
 
