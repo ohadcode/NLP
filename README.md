@@ -15,6 +15,6 @@ Language models today can do different complex tasks, one of which is text-summa
 
 **Running the code:**
 
-The data used for this project is the annotated XSUM dataset which can be found [here]([url](https://aclanthology.org/2020.acl-main.173.pdf)https://aclanthology.org/2020.acl-main.173.pdf)
-with the [relevant git]([url](https://github.com/google-research-datasets/xsum_hallucination_annotations)https://github.com/google-research-datasets/xsum_hallucination_annotations).
+The data used for this project is the annotated XSUM dataset which can be found [here](https://aclanthology.org/2020.acl-main.173.pdf)
+with the [relevant git](https://github.com/google-research-datasets/xsum_hallucination_annotations).
 Use of other python packeges is detailed in the notebook.
